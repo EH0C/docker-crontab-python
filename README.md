@@ -1,6 +1,3 @@
-
----
-
 # Docker Cron Python Automation
 
 Automate Python scripts with Docker and cron — a lightweight, portable scheduling solution.
