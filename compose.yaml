@@ -1,0 +1,10 @@
+services:
+
+  daily-python:
+    build:
+      context: ./etl-cron  
+    container_name: daily-python
+    restart: always
+    volumes:
+      - ./etl-cron/script.py:/app/script.py
+      - ./etl-cron/crontab:/etc/crontabs/root
